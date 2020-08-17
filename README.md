@@ -19,7 +19,7 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Deploying the App
 
-Follow the [Heroku Guide](https://gentle-tundra-51212.herokuapp.com/) for getting app deployed on Heroku.
+Follow the [Heroku Link](https://gentle-tundra-51212.herokuapp.com/) for getting app deployed on Heroku.
 
 ## Screeenshots
 ![Screenshot (187)](https://user-images.githubusercontent.com/63365781/90439667-e9801d80-e0a3-11ea-931f-29fa38c8cb8f.png)
