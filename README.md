@@ -9,9 +9,9 @@ This is an application that can be used to write, save, and delete notes. This a
 
 AS A user, You will be able to write and save notes.
 
-You will be able to delete notes I've written before
+You will be able to delete notes you've written before
 
-SO THAT you can organize my thoughts and keep track of tasks I need to complete.
+SO THAT you can organize your thoughts and keep track of tasks you need to complete.
 
 ## Business Context
  
@@ -19,7 +19,7 @@ For users that need to keep track of a lot of information, it's easy to forget o
 
 ## Deploying the App
 
-Carefully follow the [Heroku Guide](https://gentle-tundra-51212.herokuapp.com/) for getting app deployed on Heroku.
+Follow the [Heroku Guide](https://gentle-tundra-51212.herokuapp.com/) for getting app deployed on Heroku.
 
 ## Screeenshots
 ![Screenshot (187)](https://user-images.githubusercontent.com/63365781/90439667-e9801d80-e0a3-11ea-931f-29fa38c8cb8f.png)
