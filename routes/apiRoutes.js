@@ -22,7 +22,7 @@ module.exports = function(app) {
     res.json(notesData);
   });
 
-// 
+// API POST Requests
   app.post("/api/notes", function(req, res) {
     let newNote = req.body
     newNote.id = Math.round(Math.random()*100000000);
@@ -34,12 +34,19 @@ module.exports = function(app) {
 
   app.delete("/api/notes/:id", function(req, res) {
     let noteId = req.params.id
+    let newNote = [];
     // remove notes from notesData with id 
-    fs.writeFile("./db/db.json",JSON.stringify(notesData),function(err){console.log(err)});
+    for (let i = 0; i < notesData.length; i++) {
+      if (notesData[i].id != noteId){
+        newNote.push(noteId[i])
+      }
+    }
+    fs.writeFile("./db/db.json",JSON.stringify(newNote),function(err){console.log("Deleted Note")});
+    notesData = newNote;
     res.json(notesData);
   });
 
-  // API POST Requests
+  
   // Below code handles when a user submits a form and thus submits data to the server.
   // In each of the below cases, when a user submits form data (a JSON object)
   // ...the JSON is pushed to the appropriate JavaScript array
